@@ -1,0 +1,8 @@
+# Ques 2
+
+Write a Python Program to accept two number from the user and print their sum
+
+first_num = int(input("Enter the First Num\n"))
+second_num = int(input("Enter the Second Num \n"))
+
+print(f"The sum of {first_num} and {second_num} is {first_num+ second_num}")
