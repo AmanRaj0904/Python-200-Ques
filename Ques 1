@@ -1,0 +1,6 @@
+# write a python program to print " Welcome to Python !"  in  single line
+
+
+print("\"Welcome to Python !\"")
+
+
