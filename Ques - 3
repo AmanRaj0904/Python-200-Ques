@@ -1,0 +1,12 @@
+# Write a python program to calculate the area of reactangle given its length and width as user input
+
+
+
+# Area = Length × Width
+
+Rect_Leng = int(input("Enter the Length of Rect\n"))
+Rect_Width = int(input("Enter the Width of Rect\n"))
+
+Area = Rect_Leng * Rect_Width
+
+print("The Area of Rect is ", Area, end="")
