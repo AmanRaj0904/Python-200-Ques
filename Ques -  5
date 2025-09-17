@@ -1,0 +1,7 @@
+# Write a Python program to Accept a number and print its square and Cube
+
+
+
+Num = int(input("Enter the number\n"))
+
+print(f"The Square of {Num} is {Num*Num} and Cube is {Num*Num*Num}\n")
