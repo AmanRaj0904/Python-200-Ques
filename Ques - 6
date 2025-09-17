@@ -1,0 +1,7 @@
+# Write a pyhton program to check if a number is positive or Negative
+
+Num = int(input("Enter the number\n"))
+if Num > 0:
+  print("The number is Positive\n")
+else:
+  print("The Number is Negative\n")
