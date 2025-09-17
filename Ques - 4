@@ -1,0 +1,7 @@
+# write a python program to accept a user first name and last name and print them in the Format : " Last First".
+
+
+First_name = input("Enter the First name\n")
+Last_Name = input("Enter the Last Name\n")
+
+print(f"{Last_Name} {First_name}")
