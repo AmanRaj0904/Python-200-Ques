@@ -1,0 +1,9 @@
+# Write a Python Program to Accept the String and print it in the Revese Order
+
+Name_Rev = input("Enter Your Name \n")
+
+Len_of_Lst = len(Name_Rev) - 1
+
+while Len_of_Lst >=0:
+  print(Name_Rev[Len_of_Lst], end="")
+  Len_of_Lst = Len_of_Lst -1
