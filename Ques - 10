@@ -1,0 +1,8 @@
+# Write a python Program to accept a number and print if it is divisible by 5
+
+Num_Check = int(input("Enter The Number"))
+
+if Num_Check % 5==0:
+  print("It is Divisible Fully By 5\n")
+else:
+  print("it is not divisible by 5\n")
