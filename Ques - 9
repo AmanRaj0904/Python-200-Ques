@@ -1,0 +1,10 @@
+# Write a Python Program to calculate the perimeter of a triangle given three side as input
+
+
+First_Angle = int(input("Enter the First Angle:\n"))
+Second_Angle = int(input("Enter the Second Angle:\n"))
+Third_Angle = int(input("Enter the Third Angle:\n"))
+
+Total_Angle = First_Angle + Second_Angle + Third_Angle
+
+print(f"The total of the three angles is {Total_Angle} degrees.\n")
