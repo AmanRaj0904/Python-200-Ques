@@ -1,0 +1,10 @@
+# Write a Pyhton program to swap the two number entered by the user
+
+First_Num = int(input("Enter First Number\n"))
+Second_Num = int(input("Enter the Second Number\n"))
+
+print(f"The Number Before are {First_Num}and {Second_Num}")
+
+First_Num, Second_Num = Second_Num, First_Num
+
+print(f"After Swap First number is {First_Num}  Second is {Second_Num}\n")
