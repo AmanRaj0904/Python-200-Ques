@@ -1,0 +1,18 @@
+# Write a python Program to check if a character is a vowel or not vowel
+
+
+Count_Name = input("Enter Your Name\n")
+Small_case = Count_Name.lower()
+
+count = 0
+
+for char in Small_case:
+    if char in ["a", "e", "i", "o", "u"]:
+      print("The Vowels are - ",char)
+        # count += 1
+    else:
+      print("The Consonent are -  ",char)
+      
+
+
+
