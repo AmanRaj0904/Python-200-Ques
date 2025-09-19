@@ -1,0 +1,6 @@
+# Write a Python program to print a string three times in separate lines
+
+String_inp = input("Enter the Name\n")
+
+for i in range(1,4):
+  print(f"{String_inp}\n")
