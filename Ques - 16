@@ -1,0 +1,10 @@
+# Write a python programs to calculate the avg of three number entered by the user
+
+
+First_num = int(input("Enter the First number\n"))
+Second_num = int(input("Enter the Second number\n"))
+Third_num = int(input("Enter the Third number\n"))
+
+Avg = (First_num + Second_num + Third_num) // 3
+
+print("The Avg is - ",Avg)
