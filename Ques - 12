@@ -1,0 +1,6 @@
+# Write a python Program to Print the first 10 Even Numbers
+
+
+for i in range(1,11):
+  if i % 2==0:
+    print(f"Even Number are {i}")
