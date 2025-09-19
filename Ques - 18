@@ -1,0 +1,14 @@
+# Write A python Program to check if a number is odd & Even with User input
+
+
+Check_num = int(input("Enter the number\n"))
+
+if Check_num % 2==0:
+  print("The Number is Even\n")
+else:
+  print("The Number is Odd\n")
+
+
+
+
+
