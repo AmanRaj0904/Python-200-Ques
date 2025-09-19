@@ -1,0 +1,17 @@
+# Write a program and accept a string and count its length 
+
+
+Count_Name = input("Enter Your Name\n")
+Small_case = Count_Name.lower()
+print(f"{Small_case}")
+
+# 97 - a and 122 - z
+
+count = 0
+
+for i in range(97,123):
+  if chr(i) in Small_case:
+    count +=1
+
+print(f"The Count of CHar is {count}")
+  
