@@ -1,0 +1,17 @@
+# Write a python Programs to accept a string and print only its first Letter of it.
+
+Name = input("Enter the name \n")
+print("The First Index is - ", Name[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
