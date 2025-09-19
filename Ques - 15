@@ -1,0 +1,11 @@
+# Write a python program to accept a number and print its multiplication table up to 10
+
+
+
+Num = int(input("Enter the number\n"))
+
+for i in range(1,11):
+  print(f"{Num } X {i} = {Num*i}")
+
+
+
