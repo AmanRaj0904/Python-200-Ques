@@ -1,0 +1,6 @@
+# Write a Python Program to accept the Two String and concatenate them with a space
+
+First_Name = input("Enter Your First Name \n")
+Last_Name = input("Enter the Last Name \n")
+
+print("The Full Name is ",First_Name + " " + Last_Name)
