@@ -1,0 +1,8 @@
+# Write a python Program to calculate the Area of circle given its radius (Use 3.14 for pie)
+
+Circle_Radius = int(input("Enter the Circle Radius\n"))
+
+pie = 3.14
+
+Area_of_Circle = pie * (Circle_Radius * Circle_Radius)
+print(f"The Area of Circle is {int(Area_of_Circle)}\n")
