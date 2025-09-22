@@ -1,0 +1,8 @@
+# Write Python Program to check if a number is greater than 100 and Print Larger if True.
+
+Num = int(input("Enter The Number to check\n"))
+
+if Num >100:
+  print("Larger\n")
+else:
+  print("Smaller\n")
