@@ -1,0 +1,13 @@
+# Write a python Program to print a string with each character separated by a Hypen "-"
+
+
+Name = input("Enter The Name \n")
+
+SizeOfStr = len(Name)
+count = 0
+for i in Name:
+  count = count + 1
+  if count == SizeOfStr:
+    print(i, end="")
+  else:
+    print(i, end="-")
