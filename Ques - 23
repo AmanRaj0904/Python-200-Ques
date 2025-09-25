@@ -1,0 +1,15 @@
+# Write Python Program to accept a string and print it into UpperCase
+
+Name_inp = input("Enter The Name to Change to UpperCase\n")
+ToUpper = Name_inp.upper()
+
+print(ToUpper)
+
+
+
+
+
+
+
+
+
