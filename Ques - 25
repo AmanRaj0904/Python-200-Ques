@@ -1,0 +1,9 @@
+# Write A python Program to calulate the Square Root of a number (Without using Math.Squrt)
+
+
+Number = int(input("Enter The Number\n"))
+
+print(f"The Square Root of {Number} is {Number*Number}\n")
+
+
+
