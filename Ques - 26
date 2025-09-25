@@ -1,0 +1,10 @@
+# Write a Python Program to Accept a number and print "Zero" / "Positive" / "Negative" 
+
+Number = int(input("Enter The Number\n"))
+
+if Number == 0:
+  print("Zero\n")
+elif Number > 0:
+  print("Positive\n")
+else:
+  print("Negative\n")
