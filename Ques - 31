@@ -1,0 +1,13 @@
+# Write a Program to Calculate the Sum of Its digit in a Three Digit Numbers
+
+
+
+Numbers = int(input("Enter Your Numbers\n"))
+Sum = 0
+
+while Numbers!=0:
+  Rem = Numbers % 10
+  Sum = Sum + Rem
+  Numbers = Numbers //10
+
+print(f"The sum is  {Sum}")
