@@ -1,0 +1,9 @@
+# Write a Python Program to accept a number and check if it's divisible by both 2 and 3.
+
+
+Num = int(input("Enter the Number"))
+
+if Num % 2 == 0 and  Num % 3 == 0:
+  print("Divisible")
+else:
+  print("Not Divisible !!\n")
