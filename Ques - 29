@@ -1,0 +1,8 @@
+# Write a Python Program to print the Numbers from 20 to 1 in decending order.
+
+
+Num = 20
+
+while Num >0:
+  print(f"{Num}")
+  Num = Num - 1
