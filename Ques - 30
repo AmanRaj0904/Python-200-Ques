@@ -1,0 +1,7 @@
+# Write a Python Program to accept a string and print its last 3 Digit of it
+
+
+
+my_Name = input("Enter Your Name\n")
+
+print(f"{my_Name[-3]}{my_Name[-2]}{my_Name[-1]}")
