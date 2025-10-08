@@ -1,0 +1,10 @@
+# Write a python program to check if a character is upper case or not if it is print upperCase else it is not 
+
+
+
+Sentence = input("Enter the Name")
+
+if Sentence == Sentence.upper():
+  print("it is upper case\n")
+else:
+  print("not upper case")
