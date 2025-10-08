@@ -1,0 +1,7 @@
+# Write a python program to print the first five multiplies of a user input number
+
+
+UserImp = int(input("Enter the Name"))
+
+for i in range(1,6):
+  print(f"{ UserImp} X {i} = {UserImp*i}\n")
