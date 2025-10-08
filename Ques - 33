@@ -1,0 +1,6 @@
+# Write a python program to accept a string and print it with "!" at the end.
+
+
+Sentence = input("Enter the Name")
+
+print("The Name Now is",Sentence +  "!")
