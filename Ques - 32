@@ -1,0 +1,10 @@
+# Write a python Program to check if a number is between 1 and 10.
+
+
+Numbers = int(input("Enter Your Numbers\n"))
+
+if Numbers in range(1,11):
+  print(f"The Number {Numbers} is The Range of 1-10")
+else:
+  print("It is not in range.\n")  
+  
