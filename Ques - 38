@@ -1,0 +1,11 @@
+# Write a Python Program to check if a number is Multiplication of 7
+
+
+ListOfMul = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+
+UserNum = int(input("Enter the Number to check\n"))
+
+if UserNum in ListOfMul:
+  print("Yes ! It is Multiplication of 7\n")
+else:
+  print("No!! it is not Multiple of 7 ")
