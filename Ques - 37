@@ -1,0 +1,7 @@
+# Write a python program to accept a string and print every second char
+
+
+MyName = input("Enter the Name  ")
+
+for i in range(1,len(MyName),2):
+  print(f"{MyName[i]}\n")
