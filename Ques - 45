@@ -1,0 +1,17 @@
+# Write a python program and check if it is char or digit.
+
+
+CheckChar = input("Enter the Char to check\n")
+
+# CharPosition = ord(CheckChar)
+if (len(CheckChar) == 1):
+
+  if ord(CheckChar) in range(65, 90 + 1):
+    print("It is Capital Char in Range 65-90")
+  elif ord(CheckChar) in range(97, 122 + 1):
+    print("It is Small Char in Range 97 - 122")
+  else:
+    print("it is Digit or Symbols\n")
+
+else:
+  print("Enter Valid Input\n")
