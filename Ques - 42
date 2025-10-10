@@ -1,0 +1,11 @@
+# Write a python Program to accept a number and print if it is greater than or equal to 50
+
+
+UserInp = int(input("Enter the Number\n"))
+
+if (UserInp > 50):
+  print("It is Greater than 50 ")
+elif UserInp == 50:
+  print("It is Eqauls to")
+else:
+  print("Neither it is greater & Equals to\n")
