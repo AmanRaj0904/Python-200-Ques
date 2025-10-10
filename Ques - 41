@@ -1,0 +1,9 @@
+# Write a Python Program to calculate the area of a triangle given base and height
+
+
+TriBase = int(input("Enter the Base of Tringle\n"))
+TriHeight = int(input("Enter the Height of Triangle\n"))
+
+Area = (1/2) * TriBase * TriHeight
+
+print(Area)
