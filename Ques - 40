@@ -1,0 +1,6 @@
+# Write a python program to print a string in title case first letter of each word should be capital
+
+
+MyName = input("Enter the Name\n")
+NameCapitalize= MyName.title()
+print(NameCapitalize)
