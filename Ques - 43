@@ -1,0 +1,8 @@
+# Write a python program to accept a string and check if it has more than 5 characters.
+
+InpSizeCheck = input("Enter the Name\n")
+
+if len(InpSizeCheck) > 5:
+  print("Size is Greater than 5\n")
+else:
+  print("Less size < 5\n")
