@@ -1,0 +1,7 @@
+# Write a python Program to accept two user input number and print their diffrences 
+
+
+FirstNum = int(input("Enter the First number\n"))
+SecNum = int(input("Enter the Second Number\n"))
+
+print(f"The Diffrence is {FirstNum-SecNum}")
