@@ -1,0 +1,6 @@
+# Write a python program to find the smallest number in a list of integer
+
+MyLst = [2,3,11,44,98,101]
+
+MyLst.sort()
+print("The Smallest Number is - ",MyLst[0])
