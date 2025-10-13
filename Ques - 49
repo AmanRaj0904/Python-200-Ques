@@ -1,0 +1,6 @@
+# Write a python program to accept two number and print their product
+
+FirstNum = int(input("Enter the First Number"))
+SecondNum = int(input("Enter the Second Number"))
+
+print(FirstNum*SecondNum)
