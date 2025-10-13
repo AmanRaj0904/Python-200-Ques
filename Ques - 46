@@ -1,0 +1,10 @@
+# Write a python program to calculate the total marks of three subject entered by the user
+
+
+while True:
+  Maths = int(input("Enter the Marks of Math\n"))
+  python = int(input("Enter the Marks of Python\n"))
+  Dbms = int(input("Enter the Marks of Dbms\n"))
+  totalMarks = Maths+python+Dbms
+  print("The Total Marks is ",totalMarks)
+  break
