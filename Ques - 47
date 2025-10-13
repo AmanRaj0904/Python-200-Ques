@@ -1,0 +1,6 @@
+# Write a python program to accept a string and print it first Char and Last char
+
+
+UserName = input("Enter Your Name\n")
+
+print(f"The First Char is \"{UserName[0]}\" and Last Char is \"{UserName[-1]}\" ")
