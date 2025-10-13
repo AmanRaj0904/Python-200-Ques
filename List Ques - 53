@@ -1,0 +1,11 @@
+# Write a Python Program to find the Largest number in a list of integer
+
+MyLst = [2,3,11,44,98,101]
+
+MyLst.sort()
+print("The Largest Number is - ",MyLst[-1])
+
+
+
+
+
