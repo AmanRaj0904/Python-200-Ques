@@ -1,0 +1,10 @@
+# Write a python program to calculate the percentage of score out of 100
+
+
+
+Score = int(input("Enter the Score Out of 100\n"))
+
+if Score <=100:
+  print(f"The Percentage is {(Score/100)*100}%\n")
+else:
+  print("Enter the Score Less than 100 or 100")
