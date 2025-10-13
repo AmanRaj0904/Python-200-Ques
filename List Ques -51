@@ -1,0 +1,13 @@
+# Write a python program to sum all numbers in a list of 5 user input integers
+
+
+MyList = list()
+i=0
+sum =0
+while i<=5:
+  MyNum= int(input(f"Enter the {i} Position Value\n"))
+  MyList.append(MyNum)
+  sum= sum+MyList[i]
+  i = i+1
+  
+print("The Sum is - ",sum)
