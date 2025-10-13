@@ -1,0 +1,9 @@
+# Write a python program to print a string with each word on new line
+
+
+MyString = input("Enter the string \n")
+
+SplitInp = MyString.split(' ')
+
+for i in range(0,len(SplitInp)):
+  print(SplitInp[i],end="\n")
