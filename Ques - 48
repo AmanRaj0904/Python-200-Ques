@@ -1,0 +1,8 @@
+# Write a python Program to check if a number is divisible by 4 print "Divisible" if true.
+
+
+CheckDiv = int(input("Enter the Number"))
+if CheckDiv % 4==0:
+  print("It is Divisible")
+else:
+  print("Not Divisible")
