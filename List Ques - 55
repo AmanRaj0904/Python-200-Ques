@@ -1,0 +1,30 @@
+# Write a python Program to count strings in a list where fist and Last Char are same use first Index
+
+
+MyListName = ["sonu","Aman","sivu","raju","sinha","sonu","solu","sanu"]
+
+SizeofLst = len(MyListName)
+
+FirstAddressValue = MyListName[0]
+FirstChar = FirstAddressValue[0]
+FirstAddresslength = len(FirstAddressValue)
+LastChar =  FirstAddressValue[FirstAddresslength-1]
+count = 0
+
+for i in range(1,SizeofLst):
+  smallerCase = MyListName[i].lower()
+  LengthofSmaller = len(smallerCase)
+  if smallerCase[0] == FirstChar and smallerCase[LengthofSmaller-1] == LastChar:
+    count=count+1
+
+
+print("The Total Count is -: ",count)
+
+# smallerCase = MyListName[i].lower()
+  
+  
+
+
+
+
+
