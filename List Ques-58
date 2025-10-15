@@ -1,0 +1,9 @@
+# Write a python program to check if a list of interger is empty 
+
+MyList = [20,]  # Define a list with one integer element
+
+# Check if the list is empty by comparing its length to zero
+if len(MyList) == 0:
+    print("The List is Empty \n")  # This runs if the list has no elements
+else:
+    print("It has some values\n")  # This runs if the list has one or more elements
