@@ -1,0 +1,12 @@
+# Write a python program to copy a list to another list without modifying the original 
+
+OrinigalList = [1, 44, 2, 32, 89, 74, 90, 31, 19, 17]  # Original list of integers
+DuplicateLst = []   # Empty list to store the copied values
+
+# Function to copy elements from OrinigalList to DuplicateLst
+def CopyLst():
+  for i in range(0, len(OrinigalList)):  # Loop through each index of the original list
+    DuplicateLst.append(OrinigalList[i])  # Append the element at index i to DuplicateLst
+
+CopyLst()  # Call the function to perform the copy
+print(DuplicateLst)  # Print the copied list
