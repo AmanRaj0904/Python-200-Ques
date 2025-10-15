@@ -1,0 +1,13 @@
+# Write a python program to sort a list of 5 numbers in ascending order using loops.
+
+MyLst = [1,10,5,12,27,57,20]
+
+Temp =0
+for j in range(len(MyLst)):
+  for i in range(0,len(MyLst)-1):
+    if MyLst[i] > MyLst[i+1]:
+      Temp = MyLst[i]
+      MyLst[i] = MyLst[i+1]
+      MyLst[i+1] = Temp
+  
+print(MyLst)
