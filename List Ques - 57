@@ -1,0 +1,9 @@
+# write a python program to remove duplicate numbers from a list 
+
+MyLst = [1,10,5,12,27,57,20,10,1,27,32,57]
+
+ConvertoSet = set(MyLst)
+
+SettoLst = list(ConvertoSet)
+
+print(SettoLst)
