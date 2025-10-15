@@ -1,0 +1,13 @@
+# Write a python program to print all numbers in a list greater than a user input value.
+
+
+MyList = [1, 44, 2, 32, 89, 74, 90, 31, 19, 17]  # List of integers
+UserNum = int(input("Enter Your Number to check\n"))  # Ask user for a number
+
+# Function to check which numbers in the list are greater than the user's number
+def CheckNum():
+  for i in range(0, len(MyList)):  # Loop through each index in the list
+    if MyList[i] > UserNum:  # If the current number is greater than the user's number
+      print(MyList[i], end=" ")  # Print it on the same line with a space
+
+CheckNum()  # Call the function to run the check
